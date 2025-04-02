@@ -1,0 +1,46 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment and config files
+*.env
+.env
+
+# Conda environments
+*.conda
+*.yml
+env/
+.venv/
+venv/
+.conda/
+conda-meta/
+*.lock
+
+# Ignore Conda environment folders (custom)
+.envs/
+.envs/*
+
+# Jupyter runtime and history
+.jupyter/
+.ipython/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Optional: ignore data or model output folders
+data/
+output/
+models/
