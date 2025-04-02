@@ -10,3 +10,5 @@ Normal workflow:
 - Activate Venv
 - Select venv interpreter as Kernel
 - Ready to go
+
+Change made by Sophie
