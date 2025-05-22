@@ -1,0 +1,21 @@
+id,text,sentiment,emotion
+1,"Wow, I watched your demo and I’m truly impressed by how seamlessly everything works.",positive,admiration
+2,You wouldn’t believe it—my cat tried to fit into a shoebox three times its size and just tumbled over.,positive,amusement
+3,I’m really upset that the report wasn’t finished on time; this delay is unacceptable.,negative,anger
+4,"Honestly, it’s irritating when I have to repeat the same instructions over and over again.",negative,annoyance
+5,That’s exactly the approach we needed; I fully support moving forward with your plan.,positive,approval
+6,Please take a break and rest; I’m worried you’ve been working too hard lately.,positive,caring
+7,I’m not quite sure how the new interface is supposed to function; could you clarify?,neutral,confusion
+8,I’d love to know what inspired your design choices on this project.,neutral,curiosity
+9,I really want to travel to Japan next spring to experience the cherry blossoms in person.,positive,desire
+10,I’m disappointed that the event was canceled without any prior notice.,negative,disappointment
+11,I can’t support using deceptive tactics to boost sales; it just doesn’t sit right with me.,negative,disapproval
+12,I felt sick when I saw the mold growing on the bread in the back of the pantry.,negative,disgust
+13,I was mortified when I realized I had called my boss by the wrong name in the email.,negative,embarrassment
+14,Great news: our team just hit the highest sales record in company history!,positive,excitement
+15,I was terrified when the car suddenly skidded on the icy road last night.,negative,fear
+16,Thank you for covering my shift on short notice; I really appreciate your help.,positive,gratitude
+17,I’m heartbroken over the news of my friend’s passing; I don’t know how to cope.,negative,grief
+18,I couldn’t be happier—our family reunion was everything I hoped it would be.,positive,joy
+19,"I love how you always know exactly what I need, even before I say it.",positive,love
+20,I’m feeling jittery about tomorrow’s presentation; I hope I remember all my points.,negative,nervousness
