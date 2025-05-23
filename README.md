@@ -49,7 +49,7 @@ https://ucppt-my.sharepoint.com/:f:/g/personal/s-tbajramaj_ucp_pt/ELrBDSRIsdBJjh
 
 ---
 
-## 📦 Project Components
+## Project Components
 
 - `Model_Pipeline_2.ipynb`: Core notebook running the complete sentiment + emotion model pipeline
 - `Model_Deployment_functions.py`: Utility functions for model loading, predictions, and evaluation
@@ -76,17 +76,17 @@ Models are deployed locally using `.h5` and config files. Emotion and Sentiment 
 
 This project is part of the *Advanced Predictive Analytics* course at Católica Lisbon. Full technical documentation, model comparison, and benchmark results can be found in:
 
-- 📄 [APA Final Report](https://github.com/timbaaacodes/APA_shared)
-- 📊 [GoEmotions Dataset](https://research.google/blog/goemotions-a-dataset-for-fine-grained-emotion-classification/)
-- 🧠 [OpenAI Whisper GitHub](https://github.com/openai/whisper)
-- 📚 [LangChain Documentation](https://python.langchain.com/docs/get_started/introduction)
-- 🤖 [Anthropic Claude API](https://docs.anthropic.com/claude)
+- [APA Final Report](https://github.com/timbaaacodes/APA_shared)
+- [GoEmotions Dataset](https://research.google/blog/goemotions-a-dataset-for-fine-grained-emotion-classification/)
+- [OpenAI Whisper GitHub](https://github.com/openai/whisper)
+- [LangChain Documentation](https://python.langchain.com/docs/get_started/introduction)
+- [Anthropic Claude API](https://docs.anthropic.com/claude)
 
 ---
 
 ## Authors
 
-André Rodrigues, Claudius Kroflin, Sophie Nüssel, Tim Bajramaj  
+Tim Bajramaj, André Rodrigues, Claudius Kroflin, Sophie Nüssel
 *Advanced Predictive Analytics – May 2025*
 
 
