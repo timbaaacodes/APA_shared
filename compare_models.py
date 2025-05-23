@@ -9,7 +9,7 @@ from typing import Dict, Any, List, Optional, Union
 from anthropic import Anthropic
 from tqdm import tqdm
 
-def create_single_comparison_file(api_key="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", audio_memos_path=None):
+def create_single_comparison_file(api_key='', audio_memos_path=None):
 
     # New helper function to find model files recursively
     def find_model_files(model_type, base_dir=None):
