@@ -7,7 +7,7 @@ Required folders
 
 1. Setup envirooment
 -  crete vevn with yaml file
--  Change API key for claude
+-  Change API key for claude in compare functions
 -  Ready for model deployment
 
 
