@@ -79,9 +79,6 @@ This project is part of the *Advanced Predictive Analytics* course at Católica 
 - [APA Final Report](https://github.com/timbaaacodes/APA_shared)
 - [GoEmotions Dataset](https://research.google/blog/goemotions-a-dataset-for-fine-grained-emotion-classification/)
 - [OpenAI Whisper GitHub](https://github.com/openai/whisper)
-- [LangChain Documentation](https://python.langchain.com/docs/get_started/introduction)
-- [Anthropic Claude API](https://docs.anthropic.com/claude)
-
 ---
 
 ## Authors
