@@ -22,9 +22,8 @@ Whisper_Model/Audios/
 
 1. Create virtual environment:
 ```bash
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+conda env create -f APA_venv.yaml
+conda activate APA_venv
 ```
 
 2. Set Claude API Key:  
@@ -33,8 +32,9 @@ Update your API key in `compare_models.py`:
 claude = Anthropic(api_key="your_api_key_here")
 ```
 
-3. Launch Jupyter or run standalone scripts:  
-Recommended notebooks: `Model_Pipeline_2.ipynb`, `ATPA_Emotions.ipynb`, `ATPA_Sentiments.ipynb`
+3. Launch Jupyter to run standalone scripts:  
+Model deployment: `Model_Pipeline_2.ipynb`
+Model training: `ATPA_Emotions.ipynb`, `ATPA_Sentiments.ipynb`
 
 ---
 
@@ -51,7 +51,7 @@ https://ucppt-my.sharepoint.com/:f:/g/personal/s-tbajramaj_ucp_pt/ELrBDSRIsdBJjh
 
 ## Project Components
 
-- `Model_Pipeline_2.ipynb`: Core notebook running the complete sentiment + emotion model pipeline
+- `Model_Pipeline_2.ipynb`: Core notebook running the complete sentiment + emotion model pipeline (other modules will be imported)
 - `Model_Deployment_functions.py`: Utility functions for model loading, predictions, and evaluation
 - `Claude_functions.py`: Claude API integration for benchmarking
 - `Whisper_functions.py`: Speech-to-text preprocessing using OpenAI Whisper
@@ -65,7 +65,7 @@ https://ucppt-my.sharepoint.com/:f:/g/personal/s-tbajramaj_ucp_pt/ELrBDSRIsdBJjh
 Models are deployed locally using `.h5` and config files. Emotion and Sentiment detection run on top of transcribed audio using Whisper.
 
 **Function Overview**
-- `Whisper_functions.py`: Transcribe `.mp3` audio to text using Whisper
+- `Whisper_functions.py`: Transcribe `.m4a` audios to text using Whisper
 - `Claude_functions.py`: Query Claude with user input or Whisper transcriptions
 - `Model_Deployment_functions.py`: Run emotion/sentiment predictions with trained MLP/Transformer models
 - `Result_functions.py`: Format and visualize results
