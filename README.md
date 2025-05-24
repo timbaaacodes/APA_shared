@@ -44,6 +44,11 @@ Model training: `ATPA_Emotions.ipynb`, `ATPA_Sentiments.ipynb`
 - Includes a weekly sentiment tracker, real-time emotion detection, and a clean, intuitive dashboard.
 - For full setup instructions refer to the Project Sharing Guide in the link below.
 
+  - Open a terminal on the src level and run the following command in your terminal to start the dashboard:
+```python3 main.py
+```
+  - Go to Safari / Chrome and open this website http://127.0.0.1:5001 to view and use the dashboard
+
 Files must be downloaded via the link, as model too large for GH:  
 https://ucppt-my.sharepoint.com/:f:/g/personal/s-tbajramaj_ucp_pt/ELrBDSRIsdBJjhZA-SV9MWcBRu7MU50duUdYsX9Y_z7ZmA?e=cP3e0U
 
